@@ -1,6 +1,6 @@
 import random
 
-def hangman():
+def hangman(): #the hangman game
     word_list = ['apple', 'banana', 'cherry', 'grape', 'orange', 'childhood', 'plane', "apple", "book", "desk", "pen", "cat", "dog", "tree", "house", "car", "phone",
     "laptop", "keyboard", "mouse", "chair", "table", "door", "window", "wall", "floor", "water", "movie", "love", "letters"]  # List of words to choose from
     word = random.choice(word_list)  # Select a random word from the list
